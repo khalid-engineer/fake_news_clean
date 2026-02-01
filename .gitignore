@@ -18,7 +18,6 @@ build/
 *.sqlite
 
 # Images
-*.png
 *.jpg
 *.jpeg
 *.gif
@@ -32,3 +31,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Allow CSV and PNG files in fake_news_project directory
+!fake_news_project/*.csv
+!fake_news_project/*.png
