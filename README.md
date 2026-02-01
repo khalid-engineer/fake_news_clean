@@ -21,44 +21,16 @@ A Python project for cleaning, preprocessing, and analyzing the FakeNewsNet data
 - **Data Validation**: Ensures numeric and binary fields are properly typed
 - **Visualization**: Generates plots for data analysis
 
-## Files
 
-```
-fakenews/
-├── README.md
-├── fake_news_project/
-│   ├── fake_news_clean.py       # Main script
-│   ├── FakeNewsNet.csv          # Original dataset
-│   ├── FakeNewsNet_clean.csv    # Cleaned dataset
-│   ├── fake_news_analysis.png   # Main visualization
-│   └── sources_real_vs_fake.png # Source breakdown
-```
 
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/fakenews.git
-cd fakenews
-
-# Install dependencies
-pip install pandas numpy matplotlib
-```
-
-## Usage
-
-```bash
-# Run from the project root
-python fake_news_project/fake_news_clean.py
-```
 
 ## Generated Outputs
 
 ### Main Analysis Dashboard
-![Analysis Dashboard](fake_news_project/fake_news_analysis.png)
+![Analysis Dashboard](fake_news_project\fake_news_analysis.png)
 
 ### Source Distribution
-![Source Analysis](fake_news_project/sources_real_vs_fake.png)
+![Source Analysis](fake_news_project\sources_real_vs_fake.png)
 
 ## Top News Sources
 
@@ -80,14 +52,7 @@ python fake_news_project/fake_news_clean.py
 | `tweet_num` | integer | Number of tweets about the article |
 | `real` | binary | 1 = Real news, 0 = Fake news |
 
-## Requirements
 
-- Python 3.8+
-- pandas
-- numpy
-- matplotlib
-
-## License
 
 MIT License
 
